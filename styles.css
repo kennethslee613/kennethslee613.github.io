@@ -1,3 +1,28 @@
-#NYU {
-	color: purple;
+body {
+	font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 45px;
+}
+
+div {
+	background-color: lightgrey;
+	padding: 5%;
+}
+
+a {
+
+}
+
+.NYU {
+	color: #56068c;
+	font-weight: 700;
+}
+
