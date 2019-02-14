@@ -1,28 +1,44 @@
+@font-face {
+	font-family: ubuntu;
+	src: url(UbuntuMono-R.ttf);
+}
+
 body {
-	font-family: 'Raleway', sans-serif;
+	background-color: #232729;
+	font-family: ubuntu;
 }
 
-h1 {
-	font-weight: 700;
-	font-size: 60px;
-}
-
-h2 {
-	font-weight: 600;
-	font-size: 45px;
-}
-
-div {
-	background-color: lightgrey;
-	padding: 5%;
+p {
+	font-weight: 100;
+	font-size: 18px;
+	color: #eeeeec;
 }
 
 a {
-
+	font-weight: 100;
+	font-size: 18px;
+	color: #eeeeec;
 }
 
-.NYU {
-	color: #56068c;
+.name {
+	color: #0e989d;
 	font-weight: 700;
 }
 
+.directory {
+	color: #93d5b8;
+	font-weight: 700;
+}
+
+.cursor{
+    animation:blinking 1s infinite;
+}
+@keyframes blinking {
+    0%		{color: #eeeeec;}
+    50%		{color: #eeeeec;}
+    50.01% 	{color: transparent;}
+    100%	{color: transparent;}
+}
+
+/*light purple ac80ff*/
+/*teal 93d5b8*/
