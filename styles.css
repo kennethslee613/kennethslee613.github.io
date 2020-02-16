@@ -21,12 +21,12 @@ a {
 }
 
 .name {
-	color: #0e989d;
+	color: #2587dd;
 	font-weight: 700;
 }
 
 .directory {
-	color: #93d5b8;
+	color: #92c5f1;
 	font-weight: 700;
 }
 
@@ -40,5 +40,8 @@ a {
     100%	{color: transparent;}
 }
 
-/*light purple ac80ff*/
-/*teal 93d5b8*/
+/* light purple ac80ff */
+/* teal 0e989d */
+/* cyan 93d5b8 */
+
+/* green pattern: teal and cyan */
