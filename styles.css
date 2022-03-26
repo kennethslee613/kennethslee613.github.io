@@ -30,6 +30,16 @@ a {
 	font-weight: 700;
 }
 
+.links-list {
+	display:inline-block;
+	width: 100px;
+}
+
+.projects-list {
+	display:inline-block;
+	width: 180px;
+}
+
 .cursor{
     animation:blinking 1s infinite;
 }
